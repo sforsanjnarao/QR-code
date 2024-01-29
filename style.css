@@ -1,5 +1,7 @@
-.all{
+body{
     background-color: rgba(123, 135, 157,0.2);
+}
+.all{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -54,6 +56,10 @@ h2{
     background-color: #fff;
     text-align: center;
     color: hsl(218, 44%, 22%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 p{
     background-color: #fff;
@@ -61,6 +67,10 @@ p{
     Font-size: 15px;
     color: gray;
     font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
  
 .image:hover{
